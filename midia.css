@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+div#tv {
+    bottom: 470px;
+    right: 170px;
+    position: relative;
+    width: 561px;
+    height: 406px;
+    margin: auto;
+    background: url("5csite/tv.png") no-repeat;
+}
+
+div#radio {
+    bottom: 30px;
+    position: relative;
+    left: 315px;
+    width: 480px;
+    height: 505px;
+    background: url("5csite/radio.png") no-repeat;
+    margin: auto;
+}
+
+audio#musica {
+    display: block;
+    position: relative;
+    left: 130px;
+    top: 200px;
+    width: 250px;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 18px;
+    width: 520px;
+}

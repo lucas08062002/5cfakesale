@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>iphone 5c realease</title>
+    <link rel="stylesheet" type="text/css" href="stlyle.css">
+    <link rel="stylesheet" type="text/css" href="forms.css">
+
+    <script src="funcoes.js" language="javascript">
+   
+    </script>
+
+    <script>
+        function calc_total() {
+            var qtd = parseInt(document.getElementById('cqtd').value);
+            tot = qtd * 200;
+            document.getElementById('ctot').value = tot;
+        }
+    </script>
+
+</head>
+
+
+
+
+<body>
+<div id="interface">
+
+    <header id="cabecalho">
+
+    <article id="noticia-principal">
+    <hgroup>
+    <br>
+    <h1>iPhone 5c — Color. Fun. iPhone.</h1>
+    <h2>The iPhone 5c has arrived.</h2>
+    </hgroup>
+    
+    <img id="icone" src="5csite/capable_blue_mba_11.png">    
+    </header>
+
+
+
+
+<nav id="menu">
+<h1>menu principal</h1>
+<ul type="square">
+    <li onmouseover="changepic('5csite/house.png', 150, 150, 800, 100)"
+     onmouseout="changepic('5csite/social.png', 220, 220, 700, 60)"><a href="index.html">home</a></li>
+    <li onmouseover="changepic('5csite/engineer.png', 210, 210, 700, 50)"
+    onmouseout="changepic('5csite/social.png', 220, 220, 700, 60)" ><a href="specs.html">especifications</a></li>
+    <li onmouseover="changepic('5csite/camera.png', 230, 230, 700, 40)
+    " onmouseout="changepic('5csite/social.png', 220, 220, 700, 60)" ><a href="fotos.html">pictures</a></li>
+    <li onmouseover="changepic('5csite/video.png', 210, 210, 700, 50)"
+    onmouseout="changepic('5csite/social.png', 220, 220, 700, 60)" ><a href="midia.html">multimedia</a></li>
+    <li onmouseover="changepic('5csite/social.png', 220, 220, 700, 60)" 
+   onmouseout="changepic('5csite/social.png', 220, 220, 700, 60)" ><a href="fale.html">Contact us</a></li>
+</ul>
+</nav>
+</article>
+
+<p>
+
+   <form method="POST" id="fcontato" action="mailto:comradelucas2002@gmail.com" oninput="calc_total();"><fieldset id="usuario"><legend> User Identification</legend>
+    
+   <p><label for="cnome"> Name: </label><input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="full name"> </p>
+   <p><label for="csenha"> Password: </label><input type="password" name="tsenha" id="csenha" size="15" maxlength="8" placeholder="your password here"> </p>
+   <p> <label for="cmail"> E-mail: </label><input type="email" name="tmail" id="cmail" size="20" maxlength="40"></p>
+    
+   <fieldset id="sexo"> <legend>Gender:</legend>
+    
+   <input type="radio" name="tsexo" id="cmasc"> <label for="cmasc"> Male </label><br>
+    
+   <input type="radio" name="tsexo" id="cfem"> <label for="cfem"> Female </label></fieldset>
+    
+   <p><label for="cdata"> Date of Birth:</label><input type="date" name="tdata" id="cdata"></p>
+    </fieldset>
+
+<fieldset id="endereco">  <legend>  User Address:</legend>
+  <p><label for="crua"> Street: </label> <input type="text" name="trua" id="crua" size="20" maxlength="80"></p>
+   <p><label for="cnum"> Number:</label><input type="number" name="tnum" id="cnum" size="20" min="0" max="9999"></p>
+   <p><label for="cest"> State:</label> <select name="test" id="cest">
+       <option>Alabama</option>
+       <option>Alaska</option>
+       <option>Arizona</option>
+       <option>Arkansas</option>
+       <option>California</option>
+       <option>Colorado</option>
+       <option>Connecticut</option>
+       <option>Delaware</option>
+       <option>Florida</option>
+       <option>Georgia</option>
+       <option>Hawaii</option>
+<option>Idaho</option>
+<option>Illinois</option>
+<option>Indiana</option>
+<option>Iowa</option>
+<option>Kansas</option>
+<option>Kentucky</option>
+<option>Louisiana</option>
+<option>Maine</option>
+<option>Maryland</option>
+<option>Massachusetts</option>
+<option>Michigan</option>
+<option>Minnesota</option>
+<option>Mississippi</option>
+<option>Missouri</option>
+<option>Montana</option>
+<option>Nebraska</option>
+<option>Nevada</option>
+<option>New Hampshire</option>
+<option>New Jersey</option>
+<option>New Mexico</option>
+<option value="NY" >New York</option>
+<option>North Carolina</option>
+<option>North Dakota</option>
+<option>Ohio</option>
+<option>Oklahoma</option>
+<option>Oregon</option>
+<option>Pennsylvania</option>
+<option>Rhode Island</option>
+<option>South Carolina</option>
+<option>South Dakota</option>
+<option>Tennessee</option>
+<option>Texas</option>
+<option>Utah</option>
+<option>Vermont</option>
+<option>Virginia</option>
+<option>Washington</option>
+<option>West Virginia</option>
+<option>Wisconsin</option>
+<option>Wyoming</option>
+
+   </select></p>
+   <p><label for="ccid"> City:</label> <input type="text" name="tcid" id="ccid" maxlength="40" size="20" placeholder="your city here" list="cidades"></p>
+   <datalist id="cidades">
+        <option value="Abbeville">Abbeville</option>
+        <option value="Adamsville">Adamsville</option>
+        <option value="Addison">Addison</option>
+        <option value="Akron">Akron</option>
+        <option value="Alabaster">Alabaster</option>
+        <option value="Albertville">Albertville</option>
+        <option value="Alexander City">Alexander City</option>
+        <option value="Aliceville">Aliceville</option>
+        <option value="Allgood">Allgood</option>
+        <option value="Altoona">Altoona</option>
+        <option value="Andalusia">Andalusia</option>
+        <option value="Anderson">Anderson</option>
+        <option value="Anniston">Anniston</option>
+        <option value="Arab">Arab</option>
+        <option value="Ardmore">Ardmore</option>
+        <option value="Argo">Argo</option>
+        <option value="Ariton">Ariton</option>
+        <option value="Arley">Arley</option>
+        <option value="Ashford">Ashford</option>
+        <option value="Ashland">Ashland</option>
+        <option value="Ashville">Ashville</option>
+        <option value="Athens">Athens</option>
+        <option value="Atmore">Atmore</option>
+        <option value="Attalla">Attalla</option>
+        <option value="Auburn">Auburn</option>
+        <option value="Autaugaville">Autaugaville</option>
+        <option value="Avon">Avon</option>
+        <option value="Baileyton">Baileyton</option>
+        <option value="Banks">Banks</option>
+        <option value="Bay Minette">Bay Minette</option>
+        <option value="Bayou La Batre">Bayou La Batre</option>
+        <option value="Bear Creek">Bear Creek</option>
+        <option value="Beatrice">Beatrice</option>
+        <option value="Beaverton">Beaverton</option>
+        <option value="Belk">Belk</option>
+        <option value="Belle Mina">Belle Mina</option>
+        <option value="Bellwood">Bellwood</option>
+        <option value="Bessemer">Bessemer</option>
+        <option value="Billingsley">Billingsley</option>
+        <option value="Birmingham">Birmingham</option>
+        <option value="Black">Black</option>
+        <option value="Blountsville">Blountsville</option>
+        <option value="Boaz">Boaz</option>
+        <option value="Boligee">Boligee</option>
+        <option value="Bon Air">Bon Air</option>
+        <option value="Bon Secour">Bon Secour</option>
+        <option value="Booth">Booth</option>
+        <option value="Brantley">Brantley</option>
+        <option value="Bremen">Bremen</option>
+        <option value="Brent">Brent</option>
+        <option value="Brewton">Brewton</option>
+        <option value="Bridgeport">Bridgeport</option>
+        <option value="Brilliant">Brilliant</option>
+        <option value="Brierfield">Brierfield</option>
+        <option value="Brookside">Brookside</option>
+        <option value="Brookwood">Brookwood</option>
+        <option value="Brownsboro">Brownsboro</option>
+        <option value="Brundidge">Brundidge</option>
+        <option value="Bryant">Bryant</option>
+        <option value="Bucks">Bucks</option>
+        <option value="Buhl">Buhl</option>
+        <option value="Burkville">Burkville</option>
+        <option value="Burnt Corn">Burnt Corn</option>
+        <option value="Burnwell">Burnwell</option>
+        <option value="Butler">Butler</option>
+        <option value="Bynum">Bynum</option>
+        <option value="Calera">Calera</option>
+        <option value="Calvert">Calvert</option>
+        <option value="Camden">Camden</option>
+        <option value="Camp Hill">Camp Hill</option>
+        <option value="Campbell">Campbell</option>
+        <option value="Carbon Hill">Carbon Hill</option>
+        <option value="Cardiff">Cardiff</option>
+        <option value="Carlton">Carlton</option>
+        <option value="Carrollton">Carrollton</option>
+        <option value="Castleberry">Castleberry</option>
+        <option value="Catherine">Catherine</option>
+        <option value="Cecil">Cecil</option>
+        <option value="Cedar Bluff">Cedar Bluff</option>
+        <option value="Center Point">Center Point</option>
+        <option value="Centre">Centre</option>
+        <option value="Centreville">Centreville</option>
+        <option value="Chancellor">Chancellor</option>
+        <option value="Chapman">Chapman</option>
+        <option value="Chatom">Chatom</option>
+        <option value="Chelsea">Chelsea</option>
+        <option value="Cherokee">Cherokee</option>
+        <option value="Chickasaw">Chickasaw</option>
+        <option value="Childersburg">Childersburg</option>
+        <option value="Choccolocco">Choccolocco</option>
+        <option value="Chunchula">Chunchula</option>
+        <option value="Citronelle">Citronelle</option>
+        <option value="Clanton">Clanton</option>
+        <option value="Clay">Clay</option>
+        <option value="Clayton">Clayton</option>
+        <option value="Cleveland">Cleveland</option>
+        <option value="Clinton">Clinton</option>
+        <option value="Clio">Clio</option>
+        <option value="Clopton">Clopton</option>
+        <option value="Cloverdale">Cloverdale</option>
+        <option value="Coalburg">Coalburg</option>
+        <option value="Coaling">Coaling</option>
+        <option value="Coatopa">Coatopa</option>
+        <option value="Coden">Coden</option>
+        <option value="Coffee Springs">Coffee Springs</option>
+        <option value="Coffeeville">Coffeeville</option>
+        <option value="Coker">Coker</option>
+        <option value="Collinsville">Collinsville</option>
+        <option value="Columbia">Columbia</option>
+        <option value="Columbiana">Columbiana</option>
+        <option value="Cook Springs">Cook Springs</option>
+        <option value="Coosa Pines">Coosa Pines</option>
+        <option value="Coosada">Coosada</option>
+        <option value="Cordova">Cordova</option>
+        <option value="Cottondale">Cottondale</option>
+        <option value="Cottonton">Cottonton</option>
+        <option value="Cottonwood">Cottonwood</option>
+        <option value="Courtland">Courtland</option>
+        <option value="Cowarts">Cowarts</option>
+        <option value="Coy">Coy</option>
+        <option value="Cragford">Cragford</option>
+        <option value="Crane Hill">Crane Hill</option>
+        <option value="Creola">Creola</option>
+        <option value="Cropwell">Cropwell</option>
+        <option value="Crossville">Crossville</option>
+        <option value="Cuba">Cuba</option>
+        <option value="Cullman">Cullman</option>
+        <option value="Cusseta">Cusseta</option> 
+        <option value="Accord"></option>
+<option value="Acra"></option>
+<option value="Adams"></option>
+<option value="Adams Center"></option>
+<option value="Addison"></option>
+<option value="Adirondack"></option>
+<option value="Afton"></option>
+<option value="Akron"></option>
+<option value="Albany"></option>
+<option value="Albertson"></option>
+<option value="Albion"></option>
+<option value="Alden"></option>
+<option value="Alexandria Bay"></option>
+<option value="Alfred"></option>
+<option value="Alfred Station"></option>
+<option value="Allegany"></option>
+<option value="Allen"></option>
+<option value="Allentown"></option>
+<option value="Alma"></option>
+<option value="Almond"></option>
+<option value="Alpine"></option>
+<option value="Altamont"></option>
+<option value="Altona"></option>
+<option value="Amenia"></option>
+<option value="Amityville"></option>
+<option value="Amsterdam"></option>
+<option value="Ancram"></option>
+<option value="Andes"></option>
+<option value="Angelica"></option>
+<option value="Angola"></option>
+<option value="Annandale-on-Hudson"></option>
+<option value="Antwerp"></option>
+<option value="Apalachin"></option>
+<option value="Arcade"></option>
+<option value="Ardsley"></option>
+<option value="Argyle"></option>
+<option value="Armonk"></option>
+<option value="Arthur"></option>
+<option value="Arverne"></option>
+<option value="Ashland"></option>
+<option value="Ashville"></option>
+<option value="Astoria"></option>
+<option value="Athens"></option>
+<option value="Atlantic Beach"></option>
+<option value="Attica"></option>
+<option value="Au Sable Forks"></option>
+<option value="Auburn"></option>
+<option value="Aurora"></option>
+<option value="Austerlitz"></option>
+<option value="Ava"></option>
+<option value="Avoca"></option>
+<option value="Avon"></option>
+<option value="Babylon"></option>
+<option value="Bainbridge"></option>
+<option value="Baldwin"></option>
+<option value="Baldwinsville"></option>
+<option value="Ballston Spa"></option>
+<option value="Batavia"></option>
+<option value="Bath"></option>
+<option value="Bay Shore"></option>
+<option value="Bayport"></option>
+<option value="Beacon"></option>
+<option value="Bearsville"></option>
+<option value="Beekman"></option>
+<option value="Bellmore"></option>
+<option value="Bellport"></option>
+<option value="Belmont"></option>
+<option value="Binghamton"></option>
+<option value="Black River"></option>
+<option value="Blasdell"></option>
+<option value="Bloomfield"></option>
+<option value="Bloomingburg"></option>
+<option value="Bloomville"></option>
+<option value="Blue Point"></option>
+<option value="Bohemia"></option>
+<option value="Bolivar"></option>
+<option value="Bolton Landing"></option>
+<option value="Boonville"></option>
+<option value="Bovina"></option>
+<option value="Brant Lake"></option>
+<option value="Brentwood"></option>
+<option value="Brewster"></option>
+<option value="Briarcliff Manor"></option>
+<option value="Bridgehampton"></option>
+<option value="Bridgeport"></option>
+<option value="Brighton"></option>
+<option value="Broadalbin"></option>
+<option value="Bronx"></option>
+<option value="Bronxville"></option>
+<option value="Brookhaven"></option>
+<option value="Brooklyn"></option>
+<option value="Brownville"></option>
+<option value="Buffalo"></option>
+<option value="Burlington Flats"></option>
+<option value="Burnt Hills"></option>
+<option value="Burt"></option>
+<option value="Bushwick"></option>
+<option value="Cairo"></option>
+<option value="Caledonia"></option>
+<option value="Cambridge"></option>
+<option value="Camillus"></option>
+<option value="Canajoharie"></option>
+<option value="Canandaigua"></option>
+<option value="Canastota"></option>
+<option value="Candor"></option>
+<option value="Canton"></option>
+<option value="Cape Vincent"></option>
+<option value="Carmel"></option>
+<option value="Caroga Lake"></option>
+<option value="Carthage"></option>
+<option value="Castile"></option>
+<option value="Castleton-on-Hudson"></option>
+<option value="Cato"></option>
+<option value="Catskill"></option>
+<option value="Cazenovia"></option>
+<option value="Cedarhurst"></option>
+<option value="Central Islip"></option>
+<option value="Chappaqua"></option>
+<option value="Chautauqua"></option>
+<option value="Chazy"></option>
+<option value="Chemung"></option>
+<option value="Chester"></option>
+<option value="Chestertown"></option>
+<option value="Chittenango"></option>
+<option value="Churchville"></option>
+<option value="Clarence"></option>
+<option value="Clark Mills"></option>
+<option value="Claverack"></option>
+<option value="Clifton Park"></option>
+<option value="Clinton"></option>
+<option value="Clinton Corners"></option>
+<option value="Cobleskill"></option>
+<option value="Coeymans"></option>
+<option value="Cold Spring"></option>
+<option value="Cold Spring Harbor"></option>
+<option value="Colden"></option>
+<option value="College Point"></option>
+<option value="Colonie"></option>
+<option value="Colton"></option>
+<option value="Commack"></option>
+<option value="Conesus"></option>
+<option value="Cooperstown"></option>
+<option value="Copake"></option>
+<option value="Coram"></option>
+<option value="Corinth"></option>
+<option value="Cortland"></option>
+<option value="Coxsackie"></option>
+<option value="Cranberry Lake"></option>
+<option value="Crompond"></option>
+<option value="Crown Point"></option>
+<option value="Cutchogue"></option>       
+   </datalist>
+</fieldset> 
+
+
+<fieldset id="mensagem">  <legend>  User Message</legend>
+    
+   <p><label for="curg"> Urgency Level: </label>Min <input type="range" name="turg" id="curg" min="0" max="10" step="2" style="width: 150px;">Max </p>
+    
+   <p><label for="cmsg"> Message: </label> <textarea name="tmsg" id="cmsg" cols="35" rows="10" placeholder="leave your message here">
+
+   </textarea> </p>
+</fieldset>
+
+
+<fieldset id="pedido"> <legend>  I want an iPhone 5C.</legend>
+   <p> <input type="checkbox" name="tped" id="cped"> <label for="cped"> I would like to purchase an iPhone 5C when available.</label></p>
+    
+  <p><label for="ccor">  Color: </label> <input type="color" name="tcor" id="ccor" value="#0000FF" > </p> 
+  <p><label for="cqtd">  Quantity: </label> <input type="number" name="tqtd" id="cqtd" min="0" max="100" size="5"> </p>
+  <p><label for="ctot"> Total Price: US$ </label> <input type="text" name="ttot" id="ctot" placeholder="total a pagar" readonly> </p>
+</fieldset>
+
+    <input type="submit" value="send" name="tenviar" style="display: block;margin: 20px auto;">
+    
+</form>
+</p>
+
+
+<footer id="rodape">
+    <p>Take care of your phone! a lot of H<sub>2</sub>O was needed to make it!</p>
+    
+    <p>2013 &copy; <span style="font-weight: bolder">lucas ramone</span> &lambda; <del>jogador caro</del></p>
+    </footer>
+    
+    </div>
+    </body>
+    </html>
