@@ -53,7 +53,7 @@ header#cabecalho img#icone {
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 250px;
-    background: url("5csite/Apple_Computer_Logo_rainbow.svg") no-repeat 0px 130px;
+    background: url("files/Apple_Computer_Logo_rainbow.svg") no-repeat 0px 130px;
     background-size: 90px auto;
 }
 
