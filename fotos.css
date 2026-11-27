@@ -21,7 +21,7 @@ ul#album-fotos li {
 } 
 
 ul#album-fotos li#foto1 {
-    background: url(5csite/capable_pink_mba_11.png) no-repeat;
+    background: url(files/capable_pink_mba_11.png) no-repeat;
     background-position: 50% 50%;
     background-size: 231px 440px;
     background-color: #ffffff;
@@ -34,7 +34,7 @@ ul#album-fotos li#foto1:hover {
 }
 
 ul#album-fotos li#foto2 {
-    background: url(5csite/capable_yellow_mba_11.png) no-repeat;
+    background: url(files/capable_yellow_mba_11.png) no-repeat;
     background-position: 50% 50%;
     background-size: 226px 440px;
     background-color: #ffffff;
@@ -47,7 +47,7 @@ ul#album-fotos li#foto2:hover {
 }
 
 ul#album-fotos li#foto3 {
-    background: url(5csite/color_split_back_mba_11.png) no-repeat;
+    background: url(files/color_split_back_mba_11.png) no-repeat;
     background-position: 50% 50%;
     background-size: 240px 464px;
     background-color: #ffffff;
@@ -60,7 +60,7 @@ ul#album-fotos li#foto3:hover {
 }
 
 ul#album-fotos li#foto4 {
-    background: url(5csite/color_split_front_mba_11.png) no-repeat;
+    background: url(files/color_split_front_mba_11.png) no-repeat;
     background-position: 50% 50%;
     background-size: 239px 464px;
     background-color: #ffffff;
@@ -73,7 +73,7 @@ ul#album-fotos li#foto4:hover {
 }
 
 ul#album-fotos li#foto5 {
-    background: url(5csite/color_split_side_mba_11.png) no-repeat;
+    background: url(files/color_split_side_mba_11.png) no-repeat;
     background-position: 50% 50%;
     background-size: 71px 464px;
     background-color: #ffffff;
